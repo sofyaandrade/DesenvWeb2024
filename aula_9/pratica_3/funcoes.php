@@ -5,7 +5,7 @@ define("freq",array(0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0));
 function calculaMedia() {
     $somaNotas = 0;
     for ($i = 0; $i < count(notas); $i++) {
-        $somaNotas += notas($i);
+        $somaNotas += notas[$i];
     }
     return $somaNotas / count(notas);
 }
@@ -33,6 +33,11 @@ function statusAprovacaoFreq() {
     return "Reprovado";
 }
 
+function exibeMensagem($mensagem) {
+    echo $mensagem;
+}
+
+
 $mediaNotas = calculaMedia();
 $aprovacaoNotas = statusAprovacaoNotas();
 $calculoFreq = calculaFreq();
@@ -41,7 +46,7 @@ $aprovacaoFreq = statusAprovacaoFreq();
 exibeMensagem (
     "Média Notas $mediaNotas <br>".
     "Aprovado por nota $aprovacaoNotas <br>".
-    "Média Frquencia $mediaFreq <br>".
+    "Média Frquencia $calculoFreq <br>".
     "Aprovado por frequencia $aprovacaoFreq <br>"
 )
 ?>

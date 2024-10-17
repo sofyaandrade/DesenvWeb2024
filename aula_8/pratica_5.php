@@ -1,5 +1,5 @@
 <?php
-#PRATCA 5
+#PRÁTiCA 5
 /*Declarar um ARRAY que contenha os nomes das disciplinas
 que vocês estão matriculados de segunda a sexta-feira.
 Criar outro ARRAY que contenha os nomes dos professores

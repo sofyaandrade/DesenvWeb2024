@@ -1,5 +1,5 @@
 <?php
-#PRATICA 1
+#PRÁTiCA 1
 /*Declaração de duas constantes, uma com o seu nome e outra
 com o seu sobrenome;
 Declaração de uma variável chamada NOME que deverá

@@ -3,8 +3,8 @@
 /*Utilizando a Prática 1 criar um arquivo index.php
 (principal) e outro denominado funções.php
 (auxiliar).
-Utilizar o método require_once, para requerer ele;;*/
+Utilizar o método require_once, para requerer ele;*/
 
-require_once(dirname(__FILE__) ."funcoes.php");
+require_once("funcoes.php");
 
 ?>

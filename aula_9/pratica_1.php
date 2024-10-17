@@ -1,5 +1,5 @@
 <?php
-#PRATICA 1
+#PRÁTiCA 1
 /*Utilizando functions, implementar um programa PHP
 para:
 Declarar array com notas (quantas vc quiser);
@@ -36,7 +36,6 @@ function calculaFreq() {
     for ($i = 0; $i < count(freq); $i++) {
         $somafreq += freq($i);
     }
-    //tem q ver quantos 1 deu e ver a porcentagem em relação a quantidade de notas
     return $somafreq / count(freq); 
 }
 

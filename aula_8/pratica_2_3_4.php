@@ -1,5 +1,5 @@
 <?php
-#PRATICA 2
+#PRÁTiCA 2
 /*Declarar duas variáveis com os nomes: SALARIO1 e
 SALARIO2;
 Atribuir 1000 para a variável SALARIO1;
@@ -18,7 +18,7 @@ $salario1 = $salario1 * 1.1;
 
 echo 'O valor do salário 1 é '. $salario1 ."  e o valor de salario 2 é $salario2 <br>" ;
 
-#PRATCA 3
+#PRÁTiCA 3
 #se for aspas simples pecisa concatenar, se for duplas não precisa
 /*Utilizando o mesmo programa criado na Prática 2, fazer:
 Se o valor da variável SALARIO1 for MAIOR que o valor da
@@ -36,7 +36,7 @@ if ($salario1 > $salario2) {
     echo "Os valores são iguais <br><br>";
 };
 
-#PRATCA 4
+#PRÁTiCA 4
 /*Utilizando o mesmo programa adaptado na Prática 3, fazer:
 Criar um laço de repetição para ser executado 100 vezes.
 A cada iteração deve-se incrementar 1 na variável SALARIO1.

@@ -17,7 +17,6 @@
                 foreach ($array as $chave => $valor) {
                     echo str_repeat("--", $nivel) . " " . (is_array($valor) ? $chave : $valor) . "<br>";
 
-                    // Se o valor for um array, chama a função recursivamente
                     if (is_array($valor)) {
                         imprimirArvore($valor, $nivel + 1);
                     }
