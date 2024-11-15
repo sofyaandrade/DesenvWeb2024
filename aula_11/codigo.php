@@ -31,6 +31,7 @@ $result = pg_query_params($dbconn, "INSERT INTO TBPESSOA
                                     (PESNOME, PESSOBRENOME, PESEMAIL, PESPASSWORD, PESCIDADE, PESESTADO)
                                     VALUES
                                     ($1, $2, $3, $4, $5, $6)",
-                                    $aDados);
+                                    $aDados
+);
 
 ?>
