@@ -1,0 +1,81 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #f0f4f8; /* Cor de fundo suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container de login */
+.login-container {
+    background-color: #fff; /* Cor de fundo do container */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 300px; /* Largura fixa para o container */
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333; /* Cor do título */
+}
+
+/* Grupos de input */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+    color: #555; /* Cor das labels */
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd; /* Borda suave */
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Efeito de foco nos inputs */
+input:focus {
+    border-color: #4a90e2; /* Cor da borda ao focar */
+    outline: none;
+}
+
+/* Botão de login */
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a90e2; /* Cor de fundo do botão */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Cor do texto do botão */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.login-button:hover {
+    background-color: #357ABD; /* Cor do botão ao passar o mouse */
+}

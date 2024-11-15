@@ -1,0 +1,143 @@
+.main  {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.edit-btn, .delete-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.edit-btn:hover {
+    color: #FFA500;
+}
+
+.delete-btn:hover {
+    color: red;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}
+
+.table-config {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços indesejados entre as bordas das células */
+    margin-top: 20px; /* Espaço acima da tabela */
+}
+
+.table-config th, .table-config td {
+    border: 1px solid #ddd;
+    padding: 5px 7px; /* Espaçamento interno nas células */
+}
+
+.table-config tbody tr:not(:last-child) {
+    margin-bottom: 5px; /* Espaçamento entre as linhas da tabela */
+}
+
+.table-config tbody tr:hover {
+    background-color: #f2f2f2; /* Cor de fundo ao passar o mouse */
+}
+
+.td-id td{
+    align-items: center;
+}
+
+.cell-content {
+    display: flex;
+    justify-content: space-between; /* Mantém o texto à esquerda e os botões à direita */
+    align-items: center;
+}
+
+.cell-content span {  
+    flex-grow: 1; /* O texto ocupa o espaço disponível à esquerda */
+    text-align: left; /* Alinha o texto à esquerda */
+    word-wrap: break-word; /* Quebra o texto em palavras longas */
+    word-break: break-word; /* Garante que o texto muito longo seja quebrado */
+    white-space: normal; /* Permite a quebra de linha */
+    padding-right: 10px; /* Espaço entre o texto e os botões */
+}
+
+
+.text-content {
+    flex-grow: 1; /* Permite que o texto ocupe o espaço disponível */
+    text-align: left; /* Alinha o texto à esquerda */
+    word-wrap: break-word; /* Quebra o texto se ele for muito longo */
+    word-break: break-word; /* Quebra palavras muito longas */
+    white-space: normal; /* Permite a quebra de linha */
+    margin-right: 10px; /* Espaçamento entre o texto e os botões */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+
+.button-cad:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
+
+.button-cad {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 2px;
+    transition: background-color 0.2s, transform 0.2s;
+    align-items: right;
+}
