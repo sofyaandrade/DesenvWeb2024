@@ -1,4 +1,5 @@
 <?php
+#----------------Vale nota------------------
 #PRÁTiCA 1
 /*Utilizando functions, implementar um programa PHP
 para:
@@ -14,12 +15,12 @@ caso > 70%;
 Fazer as chamadas para as funcs e exibir;*/
 
 define("notas", array(10, 9, 7, 8, 5, 8, 10));
-define("freq",array(0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0));
+define("frequencia", array(0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0));
 
 function calculaMedia() {
     $somaNotas = 0;
     for ($i = 0; $i < count(notas); $i++) {
-        $somaNotas += notas($i);
+        $somaNotas += notas[$i];
     }
     return $somaNotas / count(notas);
 }
@@ -33,10 +34,10 @@ function statusAprovacaoNotas() {
 
 function calculaFreq() {
     $somafreq = 0;
-    for ($i = 0; $i < count(freq); $i++) {
-        $somafreq += freq($i);
+    for ($i = 0; $i < count(frequencia); $i++) {
+        $somafreq += frequencia[$i];
     }
-    return $somafreq / count(freq); 
+    return ($somafreq / count(frequencia)) * 100; 
 }
 
 function statusAprovacaoFreq() {
@@ -51,11 +52,14 @@ $aprovacaoNotas = statusAprovacaoNotas();
 $calculoFreq = calculaFreq();
 $aprovacaoFreq = statusAprovacaoFreq();
 
-exibeMensagem (
-    "Média Notas $mediaNotas <br>".
-    "Aprovado por nota $aprovacaoNotas <br>".
-    "Média Frquencia $mediaFreq <br>".
-    "Aprovado por frequencia $aprovacaoFreq <br>"
-)
+exibeMensagem(
+    "Média Notas: $mediaNotas <br>" .
+    "Aprovado por nota: $aprovacaoNotas <br>" .
+    "Média Frequência: $calculoFreq% <br>" . 
+    "Aprovado por frequência: $aprovacaoFreq <br>"
+);
 
+function exibeMensagem($mensagem) {
+    echo $mensagem;
+}
 ?>

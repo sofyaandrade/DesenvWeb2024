@@ -18,6 +18,8 @@ $salario1 = $salario1 * 1.1;
 
 echo 'O valor do salário 1 é '. $salario1 ."  e o valor de salario 2 é $salario2 <br>" ;
 
+
+#-------------atividade avalida nas notas de atividade --------------------------
 #PRÁTiCA 3
 #se for aspas simples pecisa concatenar, se for duplas não precisa
 /*Utilizando o mesmo programa criado na Prática 2, fazer:
@@ -36,6 +38,7 @@ if ($salario1 > $salario2) {
     echo "Os valores são iguais <br><br>";
 };
 
+#-------------atividade avalida nas notas de atividade --------------------------
 #PRÁTiCA 4
 /*Utilizando o mesmo programa adaptado na Prática 3, fazer:
 Criar um laço de repetição para ser executado 100 vezes.
