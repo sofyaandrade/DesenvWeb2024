@@ -1,8 +1,8 @@
 <?php
-$host = 'localhost';  // O endereço do seu banco de dados
-$dbname = 'teste';  // O nome do banco de dados
-$user = 'postgres';  // O usuário do banco de dados
-$password = 'postgres';  // A senha do usuário
+$host = 'localhost';  
+$dbname = 'projetohospital';  
+$user = 'postgres';  
+$password = 'postgres';  
 
 try {
     $conn = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);

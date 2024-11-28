@@ -6,18 +6,15 @@
     <title>Avaliação Hospitalar - Comentário</title>
     <link rel="stylesheet" href="../../../public/css/style.css">
     <link rel="stylesheet" href="avaliacao.css">
-    <script src="../../../public/js/script.js"></script>
+    <script src="../../../js/redirecionamentos.js"></script>
+    <script src="../../../js/salvarDados.js"></script>
 </head>
 <body>
     <div class="content-container">
-        <div class="header">
+    <div class="header">
             <div class="logo"><img src="../../assets/logo.png" alt=""></div>
             <div class="title">Hospital Regional do Alto Vale do Itajaí</div>
-            <button class="gear-button" onclick="goToLogin()">
-                <img src="gear-icon.png" alt="Engrenagem" />
-            </button>
         </div>
-            
 
         <div class="main">
             <div class="question">Você gostaria de deixar um comentário sobre o nosso atendimento?</div>
@@ -26,7 +23,7 @@
                 </div>
                 <div class="anonymous">Sua avaliação espontânea é anônima, nenhuma informação pessoal é solicitada ou armazenada.</div>
             </div>
-            <button class="next-button" onclick="simularEnviar()">Enviar</button>
+            <button class="next-button" onclick="salvarComentario()">Enviar</button>
         </div>
     </div>
 </body>
